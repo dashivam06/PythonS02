@@ -1,5 +1,6 @@
 
 # Importing necessary modules
+
 from operation import rent, returnLand
 from write import rentingBill, returningBill, changeStatus
 from read import displayLandInfo
@@ -16,7 +17,8 @@ print(
 
 displayLandInfo() # Displaying information about lands
 
-# Prompt user to select an option
+
+# Prompt user's to select an option
 print("\nPlease select any option: ")
 print("\n1. Rent")
 print("\n2. Return")
